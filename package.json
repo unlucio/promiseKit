@@ -19,5 +19,7 @@
   "devDependencies": {
     "mocha": "^2.2.5"
   },
-  "engine": "node 0.12.7"
+  "engines": {
+    "node": ">=0.12"
+  }
 }
