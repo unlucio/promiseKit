@@ -43,14 +43,14 @@ describe('props', function() {
     var data1 = {data: '1'};
     var promise1 = function() {
       return new Promise(function(resolve) {
-        setTimeout(resolve.bind(null, data1), 1000);
+        setTimeout(resolve.bind(undefined, data1), 1000);
       });
     };
 
     var data2 = {data: '2'};
     var promise2 = function() {
       return new Promise(function(resolve) {
-        setTimeout(resolve.bind(null, data2), 500);
+        setTimeout(resolve.bind(undefined, data2), 500);
       });
     };
 
