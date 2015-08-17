@@ -1,0 +1,23 @@
+{
+  "name": "promiseKit",
+  "version": "1.0.0",
+  "description": "A collection of small and useful enhancements to ES6 native promises without reinventing the wheel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unlucio/promiseKit"
+  },
+  "author": "unlucio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlucio/promiseKit/issues"
+  },
+  "homepage": "https://github.com/unlucio/promiseKit",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "engine": "node 0.12.7"
+}
