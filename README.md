@@ -18,6 +18,7 @@ independent such as "free form dependencies": it would be nice to be able to inc
 - create a new directory with the name of the function
 - put and `index.js` file with the function implementation
 - add an `example.js` file to showcase how to use it/what it does
+- add some tests
 - Update the doc
 
 ## List:
