@@ -11,7 +11,7 @@ ES6 promises are a good start: a weldefined base implementation and common groun
 ### The target
 I don't know you but since I can use the native Promises, and I'm usually not happy to add huge dependeices to my projects for just a little bit of sugar,
 I'm moving away form those libs but they for sure carry some very useful bits.
-This repos' aim is to group all those little useful icing-functions we're use to have and move them on ES6 promises in a light and independent way.
+This repos' aim is to group all those little useful icing-functions we're used to have and move them on ES6 promises in a light and independent way.
 independent such as "free form dependencies": it would be nice to be able to include a conveniente 20-loc function in my project without needing 5MBs of dependencies ;)
 
 ### How to contribute:
