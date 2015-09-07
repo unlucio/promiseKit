@@ -1,3 +1,5 @@
+require('./index.js');
+
 function p1() {
   return new Promise(function(resolve) {
     setTimeout(function() {
