@@ -24,6 +24,7 @@ independent such as "free form dependencies": it would be nice to be able to inc
 ## List:
 
 - [Props](https://github.com/unlucio/promiseKit/blob/master/props): Kind of like `all()` but it receives and return an object (dictionatry) instead of an array.
+- [Finally](https://github.com/unlucio/promiseKit/blob/master/finally): Just like in a try/catch clause, functions registered as "finally" will be called at the end of a promise cicle.
 
 
 ## Future:

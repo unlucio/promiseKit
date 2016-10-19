@@ -5,13 +5,10 @@ require('../../props');
 describe('props', function() {
 
   it('should be a function', function() {
-
     assert.equal(typeof Promise.props, 'function');
-
   });
 
   it('should return a res object with the given keys', function(done) {
-
     var data1 = {data: '1'};
     var promise1 = function() {
       return new Promise(function(resolve) {
@@ -39,7 +36,6 @@ describe('props', function() {
   });
 
   it('should return a res object with the given keys (no matter the order)', function(done) {
-
     var data1 = {data: '1'};
     var promise1 = function() {
       return new Promise(function(resolve) {
